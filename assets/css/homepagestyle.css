@@ -1,1 +1,179 @@
+body{
+	background-color:#fffdfa;
+	text-align:left;
+	margin: 0px;
+	font-size: 20px;
+}
+
+html,body {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*.wf-loading {
+font-family: "futura-pt";
+visibility: hidden;
+}*/
+
+
+
+/*main content style!*/
+
+.welcome {
+	border-bottom: solid black 1px;
+	<!-- height: 30%; -->
+	padding: 60px 60px 20px 0;
+  width: 50%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+	margin-right: 40px;
+}
+
+h1 {
+	font-family: garamond-premier-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 42px;
+	line-height: 44px;
+	color: black;
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+	margin-right: 40px;
+}
+
+h2 {
+	font-family: garamond-premier-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 55px;
+	color: black;
+	text-align: left;
+	margin-left: 60px;
+}
+
+p {
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 20px;
+	color: black;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 40px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 57%;
+	flex-wrap: wrap;
+}
+
+.projects {
+	padding: 0px;
+	position: static;
+	float: left;
+	width: 500px;
+	border-right: solid black 1px;
+	overflow: hidden;
+/*	flex-basis: 40%;
+*/}
+
+.projects img{
+	display: inline-block;
+	height: 175%;
+	width: 100%;
+	margin-top: -100px;
+	object-fit: cover;
+}
+
+.projectgallery-overlay {
+	position: absolute;
+	background-color: black;
+	width: 500px;
+	height: 57%;
+	opacity: 0;
+	transition: 0.3s;
+	flex-basis: 40%;
+}
+
+.projectgallery-overlay-text {
+	position: absolute;
+	color: white;
+	margin-left: 15%;
+	margin-top: 13%;
+	opacity: 0;
+}
+
+.projectgallery:hover .projectgallery-overlay {
+	opacity: 0.8;
+}
+
+.projectgallery:hover .projectgallery-overlay-text {
+	opacity: 1;
+}
+
+.submit {
+	padding: 0px;
+	width: 500px;
+	flex-basis: 40%;
+}
+
+.submit-p {
+	width: 65%;
+	padding-top: 10px;
+}
+
+.-btn {
+	width: 55px;
+	padding: 10px 25px 10px 25px;
+	margin-left: 60px;
+}
+
+.-bg {
+	border: solid black 1px;
+	background-color: #fffdfa;
+}
+
+.sublink-button {
+	display: inline-block;
+/*	width: 55px;*/
+	padding: 10px 25px 10px 25px;
+	margin-left: 60px;
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 20px;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	border: solid black 1px;
+	background-color: #fffdfa;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.sublink-button:hover {
+	background-color: black;
+	color: #fffdfa;
+}
+
+/*.sublink-a {
+	position: absolute;
+	width: 105px;
+	height: 42px;
+	margin-top: -11px;
+	margin-left: -76px;
+}*/
 
