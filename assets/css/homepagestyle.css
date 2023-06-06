@@ -61,7 +61,10 @@ visibility: hidden;
 	border-bottom: solid black 1px;
 	<!-- height: 30%; -->
 	padding: 60px 60px 20px 0;
-  width: 50%;
+}
+
+.welcome-p {
+	width: 50%;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	margin-left: 60px;
