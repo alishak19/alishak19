@@ -18,6 +18,41 @@ font-family: "futura-pt";
 visibility: hidden;
 }*/
 
+.nav {
+	position: static;
+	height: 40px;
+	padding: 5px;
+	padding-bottom: 30px;
+	border-bottom: solid black 1px;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+}
+.nav li {
+	float: right;
+}
+.nav li a {
+	display: block;
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	text-align: right;
+	padding: 10px 16px;
+	border: transparent solid 1px;
+	text-decoration: none;
+	margin-right: 10px;
+	transition: 0.3s;
+}
+.nav a:hover{
+  	border: solid black 1px;
+}
+
 
 
 /*main content style!*/
