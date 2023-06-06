@@ -184,4 +184,28 @@ p {
 	background-color: #fffdfa;
 }
 
+.sublink-button {
+	display: inline-block;
+/*	width: 55px;*/
+	padding: 10px 25px 10px 25px;
+	margin-left: 60px;
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 20px;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	border: solid black 1px;
+	background-color: #fffdfa;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.sublink-button:hover {
+	background-color: black;
+	color: #fffdfa;
+}
+
 
