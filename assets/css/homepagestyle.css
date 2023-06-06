@@ -123,6 +123,17 @@ p {
 	opacity: 1;
 }
 
+.bio {
+	padding: 0px;
+	width: 500px;
+	flex-basis: 40%;
+}
+
+.bio-p {
+	width: 65%;
+	padding-top: 10px;
+}
+
 
 .-btn {
 	width: 55px;
