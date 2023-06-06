@@ -1,1 +1,28 @@
+<header>
+  <a href="{{site.baseurl}}/index.html">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/navbarstyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  </a>
+  <div class="nav" id='nav'style="display: block">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i style = "color: black" class="fa fa-bars"></i>
+</a>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="{{site.baseurl}}/index.html">index</a></li>
+      <li><a href="{{site.baseurl}}/projectgallery.html">search</a></li>
+    </ul>
+  </div>
+  <script>
 
+  function myFunction() {
+    var x = document.getElementById("nav-links");
+    console.log(x);
+    if (x.className === "nav-links") {
+      x.className +=" responsive";
+    } else {
+      x.className = "nav-links";
+    }
+  } 
+    </script>
+</header>
