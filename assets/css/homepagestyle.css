@@ -13,10 +13,10 @@ a {
 	text-decoration: none;
 }
 
-/*.wf-loading {
+.wf-loading {
 font-family: "futura-pt";
 visibility: hidden;
-}*/
+}
 
 .nav {
 	position: static;
