@@ -186,7 +186,7 @@ p {
 }
 
 .sublink-button {
-	display: inline-block;
+	/* display: inline-block; */
 /*	width: 55px;*/
 	padding: 10px 25px 10px 25px;
 	margin-left: 60px;
