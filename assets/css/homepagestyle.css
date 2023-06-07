@@ -59,7 +59,7 @@ visibility: hidden;
 
 .welcome {
 	border-bottom: solid black 1px;
-	<!-- height: 30%; -->
+	height: 30%;
 	padding: 60px 60px 20px 0;
 }
 
@@ -101,7 +101,7 @@ p {
 	font-weight: 300;
 	font-style: normal;
 	font-size: 18px;
-	line-height: 20px;
+	line-height: 22px;
 	color: black;
 	text-align: left;
 	margin-top: 0px;
