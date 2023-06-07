@@ -154,11 +154,11 @@ p {
 
 }
 
-.projects:hover .projectgallery-overlay {
+.projects:hover .projects-overlay {
 	opacity: 0.8;
 }
 
-.projects:hover .projectgallery-overlay-text {
+.projects:hover .projects-overlay-text {
 	opacity: 1;
 }
 
