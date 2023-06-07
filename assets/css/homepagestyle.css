@@ -154,7 +154,7 @@ p {
 
 }
 
-.projectgallery:hover .projectgallery-overlay {
+.projects:hover .projectgallery-overlay {
 	opacity: 0.8;
 }
 
