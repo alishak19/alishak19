@@ -129,13 +129,13 @@ p {
 
 .projects img{
 	display: inline-block;
-	height: 250%;
+	height: 175%;
 	width: 100%;
 	margin-top: -100px;
 	object-fit: cover;
 }
 
-.projectgallery-overlay {
+.projects-overlay {
 	position: absolute;
 	background-color: black;
 	width: 500px;
@@ -145,7 +145,7 @@ p {
 	flex-basis: 40%;
 }
 
-.projectgallery-overlay-text {
+.projects-overlay-text {
 	position: absolute;
 	color: white;
 	margin-left: 15%;
