@@ -13,10 +13,10 @@ a {
 	text-decoration: none;
 }
 
-.wf-loading {
+/* .wf-loading {
 font-family: "futura-pt";
 visibility: hidden;
-}
+} */
 
 .nav {
 	position: static;
@@ -186,7 +186,7 @@ p {
 }
 
 .sublink-button {
-	/* display: inline-block; */
+	display: inline-block;
 /*	width: 55px;*/
 	padding: 10px 25px 10px 25px;
 	margin-left: 60px;
