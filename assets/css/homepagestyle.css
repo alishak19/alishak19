@@ -101,7 +101,7 @@ p {
 	font-weight: 300;
 	font-style: normal;
 	font-size: 18px;
-	line-height: 22px;
+	line-height: 20px;
 	color: black;
 	text-align: left;
 	margin-top: 0px;
@@ -113,7 +113,7 @@ p {
 .contains {
 	display: flex;
 	flex-direction: row;
-	height: 77%;
+	height: 67%;
 	flex-wrap: wrap;
 }
 
@@ -139,7 +139,7 @@ p {
 	position: absolute;
 	background-color: black;
 	width: 500px;
-	height: 77%;
+	height: 67%;
 	opacity: 0;
 	transition: 0.3s;
 	flex-basis: 40%;
