@@ -155,7 +155,7 @@ p {
 }
 
 .projects:hover .projects-overlay {
-	opacity: 0.6;
+	opacity: 0.65;
 }
 
 .projects:hover .projects-overlay-text {
