@@ -141,7 +141,7 @@ p {
 	width: 500px;
 	height: 57%;
 	opacity: 0;
-	transition: 0.29s;
+	transition: 0.3s;
 	flex-basis: 40%;
 }
 
@@ -155,7 +155,7 @@ p {
 }
 
 .projects:hover .projects-overlay {
-	opacity: 0.8;
+	opacity: 0.75;
 }
 
 .projects:hover .projects-overlay-text {
