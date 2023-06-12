@@ -200,7 +200,7 @@ p {
 	border: solid black 1px;
 	background-color: #fffdfa;
 	text-align: center;
-	transition: 0.3s;
+	transition: 0.2s;
 }
 
 .sublink-button:hover {
