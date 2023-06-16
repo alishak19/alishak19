@@ -31,13 +31,7 @@ layout: default
           {% elsif item.pagetype == "musing" or item.pagetype == "interview" %}
             
           {% elsif item.pagetype == "content" %}
-            <div class="tcleft">
-              <h2 class="tcleft"><a href="poems_2023/{{item.pid}}">{{ item.transtitle }}</a>
-              {% if item.title %}
-                  
-              {% endif %}</h2>
-              
-            </div>
+            
           {% endif %}
         {% endfor %}
       </div>
