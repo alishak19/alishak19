@@ -29,10 +29,7 @@ layout: default
           {% if item.pagetype == "frontmatter" %}
               
           {% elsif item.pagetype == "musing" or item.pagetype == "interview" %}
-            <div class="tcleft">
-              <h2 class="tcleft"><a href="poems_2023/{{item.pid}}">{{ item.transtitle }}</a></h2>
-              <h3 class="tcleft"> by {{ item.author }}</h3>
-            </div>
+            
           {% elsif item.pagetype == "content" %}
             <div class="tcleft">
               <h2 class="tcleft"><a href="poems_2023/{{item.pid}}">{{ item.transtitle }}</a>
