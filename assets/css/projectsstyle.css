@@ -11,3 +11,12 @@ html,body {
 a {
 	text-decoration: none;
 }
+
+.nav {
+	position: static;
+	height: 40px;
+	padding: 5px;
+	padding-bottom: 30px;
+	border-bottom: solid black 1px;
+}
+
