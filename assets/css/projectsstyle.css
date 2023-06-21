@@ -26,3 +26,7 @@ a {
 	padding: 10px;
 	overflow: hidden;
 }
+
+.nav li {
+	float: right;
+}
