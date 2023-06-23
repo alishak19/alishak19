@@ -49,3 +49,7 @@ a {
 .nav a:hover{
   	border: solid black 1px;
 }
+
+h1 {
+	font-family: futura-pt, serif;
+}
