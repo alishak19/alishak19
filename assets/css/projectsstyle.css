@@ -15,7 +15,7 @@ a {
 .nav {
 	position: static;
 	height: 40px;
-	padding: 4px;
+	padding: 6px;
 	padding-bottom: 30px;
 	border-bottom: solid black 1px;
 }
